@@ -1,0 +1,2217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document signature="Hero Lab Data">
+  <thing id="tmpWizard" name="Template: Wizard" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" />
+    <tag group="Template" tag="Wizard" />
+    <tag group="Template" tag="Template" />
+    <bootstrap thing="pwrSight">
+    </bootstrap>
+    <bootstrap thing="pwrSoulGaz">
+    </bootstrap>
+    <bootstrap thing="pwrWizCon">
+    </bootstrap>
+    <bootstrap thing="pwrEvocati">
+    </bootstrap>
+    <bootstrap thing="pwrThaumat">
+    </bootstrap>
+    <pickreq thing="tmpRdCrtIn" ispreclude="yes" />
+    <pickreq thing="tmpSorcere" ispreclude="yes" />
+    <pickreq thing="tmpTruBlvr" ispreclude="yes" />
+    <pickreq thing="tmpWereFrm" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVa" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVi" ispreclude="yes" />
+    <pickreq thing="tmpChmpGod" ispreclude="yes" />
+    <pickreq thing="tmpChnglng" ispreclude="yes" />
+    <pickreq thing="tmpEmissar" ispreclude="yes" />
+    <pickreq thing="tmpFocPrac" ispreclude="yes" />
+    <pickreq thing="tmpKnghtFa" ispreclude="yes" />
+    <pickreq thing="tmpLycanth" ispreclude="yes" />
+    <pickreq thing="tmpMnrTal" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="tmpMortal" name="Template: Pure Mortal" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefBonus" value="2" />
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" />
+    <tag group="Template" tag="PureMortal" />
+    <tag group="Template" tag="Template" />
+    <pickreq thing="tmpEmissar" ispreclude="yes" />
+    <pickreq thing="tmpFocPrac" ispreclude="yes" />
+    <pickreq thing="tmpKnghtFa" ispreclude="yes" />
+    <pickreq thing="tmpLycanth" ispreclude="yes" />
+    <pickreq thing="tmpMnrTal" ispreclude="yes" />
+    <pickreq thing="tmpRdCrtIn" ispreclude="yes" />
+    <pickreq thing="tmpSorcere" ispreclude="yes" />
+    <pickreq thing="tmpTruBlvr" ispreclude="yes" />
+    <pickreq thing="tmpWereFrm" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVa" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVi" ispreclude="yes" />
+    <pickreq thing="tmpWizard" ispreclude="yes" />
+    <pickreq thing="tmpChmpGod" ispreclude="yes" />
+    <pickreq thing="tmpChnglng" ispreclude="yes" />
+  </thing>
+  <thing id="tmpChmpGod" name="Template: Champion of God" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" />
+    <tag group="Template" tag="Champion" />
+    <tag group="Template" tag="Template" />
+    <bootstrap thing="pwrHolyTch">
+    </bootstrap>
+    <bootstrap thing="pwrRighteo">
+    </bootstrap>
+    <bootstrap thing="pwrBlessHs">
+    </bootstrap>
+    <bootstrap thing="pwrGuidHnd">
+    </bootstrap>
+    <pickreq thing="tmpRdCrtIn" ispreclude="yes" />
+    <pickreq thing="tmpSorcere" ispreclude="yes" />
+    <pickreq thing="tmpTruBlvr" ispreclude="yes" />
+    <pickreq thing="tmpWereFrm" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVa" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVi" ispreclude="yes" />
+    <pickreq thing="tmpWizard" ispreclude="yes" />
+    <pickreq thing="tmpChnglng" ispreclude="yes" />
+    <pickreq thing="tmpEmissar" ispreclude="yes" />
+    <pickreq thing="tmpFocPrac" ispreclude="yes" />
+    <pickreq thing="tmpKnghtFa" ispreclude="yes" />
+    <pickreq thing="tmpLycanth" ispreclude="yes" />
+    <pickreq thing="tmpMnrTal" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="tmpChnglng" name="Template: Changeling" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" />
+    <tag group="Template" tag="Changeling" />
+    <tag group="Template" tag="Template" />
+    <pickreq thing="tmpKnghtFa" ispreclude="yes" />
+    <pickreq thing="tmpLycanth" ispreclude="yes" />
+    <pickreq thing="tmpMnrTal" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="tmpRdCrtIn" ispreclude="yes" />
+    <pickreq thing="tmpSorcere" ispreclude="yes" />
+    <pickreq thing="tmpTruBlvr" ispreclude="yes" />
+    <pickreq thing="tmpWereFrm" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVa" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVi" ispreclude="yes" />
+    <pickreq thing="tmpWizard" ispreclude="yes" />
+    <pickreq thing="tmpChmpGod" ispreclude="yes" />
+    <pickreq thing="tmpEmissar" ispreclude="yes" />
+    <pickreq thing="tmpFocPrac" ispreclude="yes" />
+  </thing>
+  <thing id="tmpEmissar" name="Template: Emissary of Power" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" />
+    <tag group="Template" tag="Emissary" />
+    <tag group="Template" tag="Template" />
+    <bootstrap thing="pwrMrkdPwr">
+    </bootstrap>
+    <pickreq thing="tmpLycanth" ispreclude="yes" />
+    <pickreq thing="tmpMnrTal" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="tmpRdCrtIn" ispreclude="yes" />
+    <pickreq thing="tmpSorcere" ispreclude="yes" />
+    <pickreq thing="tmpTruBlvr" ispreclude="yes" />
+    <pickreq thing="tmpWereFrm" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVa" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVi" ispreclude="yes" />
+    <pickreq thing="tmpWizard" ispreclude="yes" />
+    <pickreq thing="tmpChmpGod" ispreclude="yes" />
+    <pickreq thing="tmpChnglng" ispreclude="yes" />
+    <pickreq thing="tmpFocPrac" ispreclude="yes" />
+    <pickreq thing="tmpKnghtFa" ispreclude="yes" />
+  </thing>
+  <thing id="tmpFocPrac" name="Template: Focused Practitioner" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" />
+    <tag group="Template" tag="Focused" />
+    <tag group="Template" tag="Template" />
+    <evalrule phase="Validate" message="Channeling or Ritual required."><![CDATA[validif (hero.tagis[Stunt.pwrChannel] + hero.tagis[Stunt.pwrRitual] <> 0)]]></evalrule>
+    <pickreq thing="tmpLycanth" ispreclude="yes" />
+    <pickreq thing="tmpMnrTal" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="tmpRdCrtIn" ispreclude="yes" />
+    <pickreq thing="tmpSorcere" ispreclude="yes" />
+    <pickreq thing="tmpTruBlvr" ispreclude="yes" />
+    <pickreq thing="tmpWereFrm" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVa" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVi" ispreclude="yes" />
+    <pickreq thing="tmpWizard" ispreclude="yes" />
+    <pickreq thing="tmpChmpGod" ispreclude="yes" />
+    <pickreq thing="tmpChnglng" ispreclude="yes" />
+    <pickreq thing="tmpEmissar" ispreclude="yes" />
+    <pickreq thing="tmpKnghtFa" ispreclude="yes" />
+  </thing>
+  <thing id="tmpKnghtFa" name="Template: Knight of a Faerie Court" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" />
+    <tag group="Template" tag="Knight" />
+    <tag group="Template" tag="Template" />
+    <bootstrap thing="pwrMrkdPwr">
+    </bootstrap>
+    <evalrule phase="Validate" message="Requires Seelie Magic or Unseelie Magic"><![CDATA[validif (hero.tagis[Stunt.pwrSeeliMg] + hero.tagis[Stunt.pwrUnseelM] <> 0)]]></evalrule>
+    <pickreq thing="tmpMnrTal" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="tmpRdCrtIn" ispreclude="yes" />
+    <pickreq thing="tmpSorcere" ispreclude="yes" />
+    <pickreq thing="tmpTruBlvr" ispreclude="yes" />
+    <pickreq thing="tmpWereFrm" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVa" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVi" ispreclude="yes" />
+    <pickreq thing="tmpWizard" ispreclude="yes" />
+    <pickreq thing="tmpChmpGod" ispreclude="yes" />
+    <pickreq thing="tmpChnglng" ispreclude="yes" />
+    <pickreq thing="tmpEmissar" ispreclude="yes" />
+    <pickreq thing="tmpFocPrac" ispreclude="yes" />
+    <pickreq thing="tmpLycanth" ispreclude="yes" />
+  </thing>
+  <thing id="tmpLycanth" name="Template: Lycanthrope" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" />
+    <tag group="Template" tag="Lycanthrop" />
+    <tag group="Template" tag="Template" />
+    <bootstrap thing="pwrHumForm">
+    </bootstrap>
+    <bootstrap thing="pwrInhumSt">
+    </bootstrap>
+    <bootstrap thing="pwrInhuRec">
+    </bootstrap>
+    <bootstrap thing="pwrPackIns">
+    </bootstrap>
+    <bootstrap thing="pwrEchoBst">
+    </bootstrap>
+    <bootstrap thing="pwrRareInv">
+    </bootstrap>
+    <pickreq thing="tmpTruBlvr" ispreclude="yes" />
+    <pickreq thing="tmpWereFrm" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVa" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVi" ispreclude="yes" />
+    <pickreq thing="tmpWizard" ispreclude="yes" />
+    <pickreq thing="tmpChmpGod" ispreclude="yes" />
+    <pickreq thing="tmpChnglng" ispreclude="yes" />
+    <pickreq thing="tmpEmissar" ispreclude="yes" />
+    <pickreq thing="tmpFocPrac" ispreclude="yes" />
+    <pickreq thing="tmpKnghtFa" ispreclude="yes" />
+    <pickreq thing="tmpMnrTal" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="tmpRdCrtIn" ispreclude="yes" />
+    <pickreq thing="tmpSorcere" ispreclude="yes" />
+  </thing>
+  <thing id="tmpMnrTal" name="Template: Minor Talent" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" />
+    <tag group="Template" tag="MinorTalen" />
+    <tag group="Template" tag="Template" />
+    <evalrule phase="Validate" message="????"><![CDATA[var foundcount as number
+var supercost as number
+
+foreach pick in hero from Stunt where "Supernat.Supernat"
+  foundcount += 1
+  supercost += eachpick.field[stRefCost].value * eachpick.field[stNumber].value
+nexteach
+
+@valid = 1
+if (foundcount <> 1) then
+   @valid = 0
+   @message = "Requires 1 supernatural power.  You have " & foundcount & "."
+elseif (supercost < 1) then
+   @valid = 0
+   @message = "Supernatural power must cost at least -1 Refresh.  Yours costs " & supercost & "."
+elseif (supercost > 2) then
+   @valid = 0
+   @message = "Supernatural power must cannot exceed -2 Refresh.  Yours costs -" & supercost & "."
+endif]]></evalrule>
+    <pickreq thing="tmpKnghtFa" ispreclude="yes" />
+    <pickreq thing="tmpLycanth" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="tmpRdCrtIn" ispreclude="yes" />
+    <pickreq thing="tmpSorcere" ispreclude="yes" />
+    <pickreq thing="tmpTruBlvr" ispreclude="yes" />
+    <pickreq thing="tmpWereFrm" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVa" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVi" ispreclude="yes" />
+    <pickreq thing="tmpWizard" ispreclude="yes" />
+    <pickreq thing="tmpChmpGod" ispreclude="yes" />
+    <pickreq thing="tmpChnglng" ispreclude="yes" />
+    <pickreq thing="tmpEmissar" ispreclude="yes" />
+    <pickreq thing="tmpFocPrac" ispreclude="yes" />
+  </thing>
+  <thing id="tmpRdCrtIn" name="Template: Red Court Infected" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" />
+    <tag group="Template" tag="RedCrtInf" />
+    <tag group="Template" tag="Template" />
+    <bootstrap thing="pwrAddSali">
+    </bootstrap>
+    <bootstrap thing="pwrFeedDep">
+    </bootstrap>
+    <bootstrap thing="pwrBldDrnk">
+    </bootstrap>
+    <evalrule phase="Validate" message="Requires at least one of Inhuman Recovery, Inhuman Speed, Inhuman Strength or Inhuman Toughness."><![CDATA[validif (hero.tagis[Stunt.pwrInhuRec] + hero.tagis[Stunt.pwrInhuSpd] + hero.tagis[Stunt.pwrInhumSt] + hero.tagis[Stunt.pwrInhuTou] <> 0)]]></evalrule>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="tmpSorcere" ispreclude="yes" />
+    <pickreq thing="tmpTruBlvr" ispreclude="yes" />
+    <pickreq thing="tmpWereFrm" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVa" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVi" ispreclude="yes" />
+    <pickreq thing="tmpWizard" ispreclude="yes" />
+    <pickreq thing="tmpChmpGod" ispreclude="yes" />
+    <pickreq thing="tmpChnglng" ispreclude="yes" />
+    <pickreq thing="tmpEmissar" ispreclude="yes" />
+    <pickreq thing="tmpFocPrac" ispreclude="yes" />
+    <pickreq thing="tmpKnghtFa" ispreclude="yes" />
+    <pickreq thing="tmpLycanth" ispreclude="yes" />
+    <pickreq thing="tmpMnrTal" ispreclude="yes" />
+  </thing>
+  <thing id="tmpSorcere" name="Template: Sorcerer" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" />
+    <tag group="Template" tag="Sorcerer" />
+    <tag group="Template" tag="Template" />
+    <bootstrap thing="pwrEvocati">
+    </bootstrap>
+    <bootstrap thing="pwrThaumat">
+    </bootstrap>
+    <evalrule phase="Validate" message="????"><![CDATA[var findcount as number
+
+foreach pick in hero from Stunt where "thingid.pwrRefinEl"
+   findcount += 1
+nexteach
+
+foreach pick in hero from Stunt where "thingid.pwrRefinSp"
+   findcount += 1
+nexteach
+
+foreach pick in hero from Stunt where "thingid.pwrRefinIt"
+   findcount += 1
+nexteach
+
+validif (findcount <= 2)]]></evalrule>
+    <pickreq thing="tmpMnrTal" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="tmpRdCrtIn" ispreclude="yes" />
+    <pickreq thing="tmpTruBlvr" ispreclude="yes" />
+    <pickreq thing="tmpWereFrm" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVa" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVi" ispreclude="yes" />
+    <pickreq thing="tmpWizard" ispreclude="yes" />
+    <pickreq thing="tmpChmpGod" ispreclude="yes" />
+    <pickreq thing="tmpChnglng" ispreclude="yes" />
+    <pickreq thing="tmpEmissar" ispreclude="yes" />
+    <pickreq thing="tmpFocPrac" ispreclude="yes" />
+    <pickreq thing="tmpKnghtFa" ispreclude="yes" />
+    <pickreq thing="tmpLycanth" ispreclude="yes" />
+  </thing>
+  <thing id="tmpTruBlvr" name="Template: True Believer" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" />
+    <tag group="Template" tag="TrueBeliev" />
+    <tag group="Template" tag="Template" />
+    <bootstrap thing="pwrBlessHs">
+    </bootstrap>
+    <bootstrap thing="pwrGuidHnd">
+    </bootstrap>
+    <pickreq thing="tmpLycanth" ispreclude="yes" />
+    <pickreq thing="tmpMnrTal" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="tmpRdCrtIn" ispreclude="yes" />
+    <pickreq thing="tmpSorcere" ispreclude="yes" />
+    <pickreq thing="tmpWereFrm" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVa" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVi" ispreclude="yes" />
+    <pickreq thing="tmpWizard" ispreclude="yes" />
+    <pickreq thing="tmpChmpGod" ispreclude="yes" />
+    <pickreq thing="tmpChnglng" ispreclude="yes" />
+    <pickreq thing="tmpEmissar" ispreclude="yes" />
+    <pickreq thing="tmpFocPrac" ispreclude="yes" />
+    <pickreq thing="tmpKnghtFa" ispreclude="yes" />
+  </thing>
+  <thing id="tmpWereFrm" name="Template: Were-Form" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" />
+    <tag group="Template" tag="WereForm" />
+    <tag group="Template" tag="Template" />
+    <bootstrap thing="pwrHumForm">
+    </bootstrap>
+    <bootstrap thing="pwrBeastCh">
+    </bootstrap>
+    <bootstrap thing="pwrEchoBst">
+    </bootstrap>
+    <evalrule phase="Validate" message="Requires at least one of Inhuman Recovery, Inhuman Speed, Inhuman Strength or Inhuman Toughness."><![CDATA[validif (hero.tagis[Stunt.pwrInhuRec] + hero.tagis[Stunt.pwrInhuSpd] + hero.tagis[Stunt.pwrInhumSt] + hero.tagis[Stunt.pwrInhuTou] <> 0)]]></evalrule>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="tmpRdCrtIn" ispreclude="yes" />
+    <pickreq thing="tmpSorcere" ispreclude="yes" />
+    <pickreq thing="tmpTruBlvr" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVa" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVi" ispreclude="yes" />
+    <pickreq thing="tmpWizard" ispreclude="yes" />
+    <pickreq thing="tmpChmpGod" ispreclude="yes" />
+    <pickreq thing="tmpChnglng" ispreclude="yes" />
+    <pickreq thing="tmpEmissar" ispreclude="yes" />
+    <pickreq thing="tmpFocPrac" ispreclude="yes" />
+    <pickreq thing="tmpKnghtFa" ispreclude="yes" />
+    <pickreq thing="tmpLycanth" ispreclude="yes" />
+    <pickreq thing="tmpMnrTal" ispreclude="yes" />
+  </thing>
+  <thing id="tmpWhtCtVa" name="Template: White Court Vampire" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" />
+    <tag group="Template" tag="WhtCrtVamp" />
+    <tag group="Template" tag="Template" />
+    <bootstrap thing="pwrInctEmo">
+    </bootstrap>
+    <bootstrap thing="pwrFeedDep">
+    </bootstrap>
+    <bootstrap thing="pwrInhuRec">
+    </bootstrap>
+    <bootstrap thing="pwrInhuSpd">
+    </bootstrap>
+    <bootstrap thing="pwrInhumSt">
+    </bootstrap>
+    <bootstrap thing="pwrEmoVamp">
+    </bootstrap>
+    <bootstrap thing="pwrHumGuis">
+    </bootstrap>
+    <pickreq thing="tmpTruBlvr" ispreclude="yes" />
+    <pickreq thing="tmpWereFrm" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVi" ispreclude="yes" />
+    <pickreq thing="tmpWizard" ispreclude="yes" />
+    <pickreq thing="tmpChmpGod" ispreclude="yes" />
+    <pickreq thing="tmpChnglng" ispreclude="yes" />
+    <pickreq thing="tmpEmissar" ispreclude="yes" />
+    <pickreq thing="tmpFocPrac" ispreclude="yes" />
+    <pickreq thing="tmpKnghtFa" ispreclude="yes" />
+    <pickreq thing="tmpLycanth" ispreclude="yes" />
+    <pickreq thing="tmpMnrTal" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="tmpRdCrtIn" ispreclude="yes" />
+    <pickreq thing="tmpSorcere" ispreclude="yes" />
+  </thing>
+  <thing id="tmpWhtCtVi" name="Template: White Court Virgin" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" />
+    <tag group="Template" tag="WhtCrtVirg" />
+    <tag group="Template" tag="Template" />
+    <bootstrap thing="pwrEmoVamp">
+    </bootstrap>
+    <bootstrap thing="pwrInctEmo">
+    </bootstrap>
+    <pickreq thing="tmpLycanth" ispreclude="yes" />
+    <pickreq thing="tmpMnrTal" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="tmpRdCrtIn" ispreclude="yes" />
+    <pickreq thing="tmpSorcere" ispreclude="yes" />
+    <pickreq thing="tmpTruBlvr" ispreclude="yes" />
+    <pickreq thing="tmpWereFrm" ispreclude="yes" />
+    <pickreq thing="tmpWhtCtVa" ispreclude="yes" />
+    <pickreq thing="tmpWizard" ispreclude="yes" />
+    <pickreq thing="tmpChmpGod" ispreclude="yes" />
+    <pickreq thing="tmpChnglng" ispreclude="yes" />
+    <pickreq thing="tmpEmissar" ispreclude="yes" />
+    <pickreq thing="tmpFocPrac" ispreclude="yes" />
+    <pickreq thing="tmpKnghtFa" ispreclude="yes" />
+  </thing>
+  <thing id="stCrnrEye" name="Corner of My Eye" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAlert" />
+  </thing>
+  <thing id="stOnMyToes" name="On My Toes" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAlert" />
+  </thing>
+  <thing id="stParanoid" name="Paranoid? Probably." description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAlert" />
+  </thing>
+  <thing id="stAcrobat" name="Acrobat" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAthletic" />
+  </thing>
+  <thing id="stFleetFt" name="Fleet of Foot" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAthletic" />
+  </thing>
+  <thing id="stHmnSpdr" name="Human Spider" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAthletic" />
+  </thing>
+  <thing id="stMghtyLp" name="Mighty Leap" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAthletic" />
+  </thing>
+  <thing id="stToFstHit" name="Too Fast to Hit" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAthletic" />
+  </thing>
+  <thing id="stBigPctur" name="Big Picture" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skBurglary" />
+  </thing>
+  <thing id="stCatBrglr" name="Cat-Burglar" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skBurglary" />
+  </thing>
+  <thing id="stHacker" name="Hacker" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skBurglary" />
+  </thing>
+  <thing id="stHrPnMstr" name="Hairpin Maestro" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skBurglary" />
+  </thing>
+  <thing id="stSafCrack" name="Safecracker" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skBurglary" />
+  </thing>
+  <thing id="stKnowAGuy" name="I Know Just the Guy" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skContact" />
+  </thing>
+  <thing id="stEarGrnd" name="Ear to the Ground" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" replaces="stEarGroun" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skContact" name="Contacts" abbrev="Contacts" />
+  </thing>
+  <thing id="stRumrMngr" name="Rumormonger" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" replaces="stRumormon" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skContact" name="Contacts" abbrev="Contacts" />
+  </thing>
+  <thing id="stDevoutWr" name="Devout Words" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skConvict" />
+  </thing>
+  <thing id="stPrsnConv" name="Person of Conviction" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skConvict" />
+  </thing>
+  <thing id="stTwrFaith" name="Tower of Faith" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skConvict" />
+  </thing>
+  <thing id="stCarMech" name="Car Mechanic" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skCraftman" />
+  </thing>
+  <thing id="stDemolit" name="Demolitions Training" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skCraftman" />
+  </thing>
+  <thing id="stJunkArti" name="Junkyard Artiste" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skCraftman" />
+  </thing>
+  <thing id="stJuryRigg" name="Jury-Rigger" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skCraftman" />
+  </thing>
+  <thing id="stMnkyWrnc" name="Monkey with a Wrench" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skCraftman" />
+  </thing>
+  <thing id="stDocForge" name="Document Forging" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skDeceive" />
+  </thing>
+  <thing id="stHonstLie" name="Honest Lies" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skDeceive" />
+  </thing>
+  <thing id="stMkUpArt" name="Make-Up Artist" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skDeceive" />
+  </thing>
+  <thing id="stPickPock" name="Pick-Pocket" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skDeceive" />
+  </thing>
+  <thing id="stTk1Know1" name="Takes One to Know One" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skDeceive" />
+  </thing>
+  <thing id="stStgMagic" name="Stage Magician" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skDeceive" />
+  </thing>
+  <thing id="stCalmOcea" name="Calm Blue Ocean" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skDiscip" />
+  </thing>
+  <thing id="stSprmConc" name="Supreme Concentration" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skDiscip" />
+  </thing>
+  <thing id="stUnshake" name="Unshakeable" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skDiscip" />
+  </thing>
+  <thing id="stBeenTher" name="Been There" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skDriving" />
+  </thing>
+  <thing id="stBackOfHn" name="Like the Back of My Hand" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skDriving" />
+  </thing>
+  <thing id="stPilot" name="Pilot" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skDriving" />
+  </thing>
+  <thing id="stShakTail" name="Shake the Tail" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skDriving" />
+  </thing>
+  <thing id="stCounselr" name="Counselor" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skEmpathy" />
+  </thing>
+  <thing id="stReadSurf" name="Read the Surface" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skEmpathy" />
+  </thing>
+  <thing id="stSocGrace" name="Social Graces" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skEmpathy" />
+  </thing>
+  <thing id="stWntGetFo" name="Won't Get Fooled Again" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skEmpathy" />
+  </thing>
+  <thing id="stNoPnNoGn" name="No Pain, No Gain" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skEndure" />
+  </thing>
+  <thing id="stToughStu" name="Tough Stuff" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skEndure" />
+  </thing>
+  <thing id="stFootwork" name="Footwork" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skFists" />
+  </thing>
+  <thing id="stKillBlow" name="Killer Blow" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skFists" />
+  </thing>
+  <thing id="stMrtlArts" name="Martial Artist" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skFists" />
+  </thing>
+  <thing id="stArmedArt" name="Armed Arts" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skFists" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+  </thing>
+  <thing id="stLethWpn" name="Lethal Weapon" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skFists" />
+  </thing>
+  <thing id="stRedirFrc" name="Redirected Force" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skFists" />
+  </thing>
+  <thing id="stStpInBlw" name="Step Into the Blow" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skFists" />
+  </thing>
+  <thing id="stSelfImag" name="Resilient Self-Image" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skConvict" />
+  </thing>
+  <thing id="stTireless" name="Tireless" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skEndure" />
+  </thing>
+  <thing id="stFastRelo" name="Fast Reload" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skGuns" />
+  </thing>
+  <thing id="stGunNut" name="Gun Nut" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skGuns" />
+  </thing>
+  <thing id="stHandEye" name="Hand-Eye Coordination" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skGuns" />
+  </thing>
+  <thing id="stPinDown" name="Pin Them Down" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skGuns" />
+  </thing>
+  <thing id="stTrgtRich" name="Target-Rich Evnironment" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skGuns" />
+  </thing>
+  <thing id="stWayOfBow" name="Way of the Bow" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skGuns" />
+  </thing>
+  <thing id="stInfuriat" name="Infuriate" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skIntim" />
+  </thing>
+  <thing id="stInterrog" name="Interrogator" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skIntim" />
+  </thing>
+  <thing id="stRuleFear" name="Rule with Fear" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skIntim" />
+  </thing>
+  <thing id="stSubtlMen" name="Subtle Menace" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skIntim" />
+  </thing>
+  <thing id="stDntWntTh" name="You Don't Want Any Of This" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skIntim" />
+  </thing>
+  <thing id="stListenin" name="Listening" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skInvestig" />
+  </thing>
+  <thing id="stPinTail" name="Pin the Tail" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skInvestig" />
+  </thing>
+  <thing id="stQuickEye" name="Quick Eye" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skInvestig" />
+  </thing>
+  <thing id="stScnCrime" name="Scene of the Crime" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skInvestig" />
+  </thing>
+  <thing id="stOccultis" name="Occultist" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skLore" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+  </thing>
+  <thing id="stThirdEye" name="Finely Tuned Third Eye" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skLore" />
+  </thing>
+  <thing id="stBendBrk" name="Bend and Break" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skMight" />
+  </thing>
+  <thing id="stMghtyThw" name="Mighty Thews" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skMight" />
+  </thing>
+  <thing id="stWrestler" name="Wrestler" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skMight" />
+  </thing>
+  <thing id="stArtHisto" name="Art Historian" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skPerform" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+  </thing>
+  <thing id="stImperson" name="Impersonator" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skPerform" />
+  </thing>
+  <thing id="stPoet" name="Poet" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skPerform" />
+  </thing>
+  <thing id="stPointPrf" name="Pointed Performance" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skPerform" />
+  </thing>
+  <thing id="stLeadrshp" name="Leadership" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skPresence" />
+  </thing>
+  <thing id="stPrsnlMag" name="Personal Magnetism" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skPresence" />
+  </thing>
+  <thing id="stTeflon" name="Teflon Persona" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skPresence" />
+  </thing>
+  <thing id="stBstFtFwr" name="Best Foot Forward" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" replaces="stBestForw" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skRapport" />
+  </thing>
+  <thing id="stSexAppea" name="Sex Appeal" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skRapport" />
+  </thing>
+  <thing id="stFlthyLuc" name="Filthy Lucre" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skResource" />
+  </thing>
+  <thing id="stLushLife" name="Lush Lifestyle" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skResource" />
+  </thing>
+  <thing id="stHiQltWrk" name="High Quality Workspace" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skResource" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+  </thing>
+  <thing id="stWindfall" name="Windfall" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skResource" />
+  </thing>
+  <thing id="stTellStor" name="Let Me Tell You a Story..." description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skRapport" />
+  </thing>
+  <thing id="stWghtRep" name="Weight of Reputation" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" replaces="stWeighRep" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skPresence" />
+  </thing>
+  <thing id="stResearch" name="Capable Researcher" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skScholar" />
+  </thing>
+  <thing id="stDoctor" name="Doctor" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skScholar" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+  </thing>
+  <thing id="stForgeExp" name="Forgery Expert" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skScholar" />
+  </thing>
+  <thing id="stLinguist" name="Linguist" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skScholar" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+  </thing>
+  <thing id="stScientis" name="Scientist" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skScholar" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+  </thing>
+  <thing id="stScholar" name="Scholar" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skScholar" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+  </thing>
+  <thing id="stBlendIn" name="Blend In" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skStealth" />
+  </thing>
+  <thing id="stStayClos" name="Stay Close and Keep Quiet!" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skStealth" />
+  </thing>
+  <thing id="stSwftSlnt" name="Swift and Silent" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skStealth" />
+  </thing>
+  <thing id="stAnmlHand" name="Animal Handler" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skSurvival" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+  </thing>
+  <thing id="stGoNative" name="Go Native" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skSurvival" />
+  </thing>
+  <thing id="stHunter" name="Hunter" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skSurvival" />
+  </thing>
+  <thing id="stGoodArm" name="Good Arm" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skWeapons" />
+  </thing>
+  <thing id="stJuggler" name="Juggler" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skWeapons" />
+  </thing>
+  <thing id="stOffHand" name="Off-Hand Weapon Training" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skWeapons" />
+  </thing>
+  <thing id="stRiposte" name="Riposte" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skWeapons" />
+  </thing>
+  <thing id="stWallDeat" name="Wall of Death" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skWeapons" />
+  </thing>
+  <thing id="pwrAddSali" name="P/CF: Addictive Saliva" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="Your saliva is a powerful narcotic." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Creature" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrAquatic" name="P/CF: Aquatic" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You can't drown, and you can swim easily." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Creature" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrBrthWep" name="P/CF: Breath Weapon" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="Use as thrown Weapon:2">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Creature" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrClaws" name="P/CF: Claws" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="Use as Weapon:2 for your Fists attacks." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Creature" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrDimSize" name="P/CF: Diminutive Size" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="Youâ€™re very small." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Creature" />
+    <tag group="Supernat" tag="Supernat" />
+    <evalrule phase="Validate" message="Endurance cannot exceed Mediocre (0)."><![CDATA[validif (hero.childfound[skEnduran].field[trtFinal].value <= 0)]]></evalrule>
+    <pickreq thing="pwrHlkSize" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrEchoBst" name="P/CF: Echoes of the Beast" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="Some part of you is a beast." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Supernat" tag="Creature" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrHlkSize" name="P/CF: Hulking Size" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="Youâ€™re very large." uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Creature" />
+    <tag group="Supernat" tag="Supernat" />
+    <eval phase="Initialize" priority="500">hero.childfound[strPhys].field[strMax].value += 2</eval>
+    <pickreq thing="pwrDimSize" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrLivDead" name="P/CF: Living Dead" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="Youâ€™re dead, but you keep walking around." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Creature" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrPackIns" name="P/CF: Pack Instincts" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You are part of a pack." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Supernat" tag="Creature" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrSpdrWlk" name="P/CF: Spider Walk" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You can climb like a spider." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Creature" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrSupSnse" name="P/CF: Supernatural Sense" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You have a supernatural sense." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Supernat" tag="Creature" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrWings" name="P/CF: Wings" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You have wings." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Supernat" tag="Creature" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrGlamour" name="P/FM: Glamours" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="ou can create minor veils and â€œseemingsâ€." uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Faerie" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrGrtGlam" ispreclude="yes" />
+  </thing>
+  <thing id="pwrGrtGlam" name="P/FM: Greater Glamours" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You can create greater illusions and ectoplasmic constructs." uniqueness="unique">
+    <fieldval field="stRefCost" value="4" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Faerie" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrGlamour" ispreclude="yes" />
+  </thing>
+  <thing id="pwrSeeliMg" name="P/FM: Seelie Magic" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You can draw on the power of the Summer Court." uniqueness="unique">
+    <fieldval field="stRefCost" value="4" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Faerie" />
+    <tag group="Supernat" tag="Supernat" />
+    <eval phase="PreTraits"><![CDATA[var foundcount as number
+if (hero.tagis[Stunt.pwrEvocati] <> 0) then
+   foundcount += 1
+endif
+
+if (hero.tagis[Stunt.pwrThaumat] <> 0) then
+   foundcount += 1
+endif 
+
+if (hero.tagis[Stunt.pwrChannel] <> 0) then
+   foundcount += 1
+endif 
+
+if (hero.tagis[Stunt.pwrRitual] <> 0) then
+   foundcount += 1
+endif
+
+herofield[acRefrStnt].value -= foundcount]]></eval>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrUnseelM" ispreclude="yes" />
+  </thing>
+  <thing id="pwrUnseelM" name="P/FM: Unseelie Magic" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You can draw on the power of the Winter Court." uniqueness="unique">
+    <fieldval field="stRefCost" value="4" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Faerie" />
+    <tag group="Supernat" tag="Supernat" />
+    <eval phase="PreTraits" priority="500"><![CDATA[var foundcount as number
+if (hero.tagis[Stunt.pwrEvocati] <> 0) then
+   foundcount += 1
+endif
+
+if (hero.tagis[Stunt.pwrThaumat] <> 0) then
+   foundcount += 1
+endif 
+
+if (hero.tagis[Stunt.pwrChannel] <> 0) then
+   foundcount += 1
+endif 
+
+if (hero.tagis[Stunt.pwrRitual] <> 0) then
+   foundcount += 1
+endif
+
+herofield[acRefrStnt].value -= foundcount]]></eval>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrSeeliMg" ispreclude="yes" />
+  </thing>
+  <thing id="pwrSwoCros" name="P/IT: Sword of the Cross" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You have one of the three Swords of the Cross," uniqueness="unique">
+    <fieldval field="stRefCost" value="3" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Item" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrItem" name="P/IT: Item of Power" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You have an item of great power." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Helper" tag="ShowIncr" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Supernat" tag="Item" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrClkShdw" name="P/MA: Cloak of Shadows" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="Youâ€™re able to melt into the shadows." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Minor" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrGhstSpk" name="P/MA: Ghost Speaker" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You see dead people." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Minor" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrManaSta" name="P/MA: Mana Static" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You have a tendency to cause technology to short out." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Minor" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrMrkdPwr" name="P/MA: Marked by Power" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="Youâ€™ve been marked by a powerful entity." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Supernat" tag="Minor" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrWizCon" name="P/MA: Wizard's Constitution" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="Longevity and injury recovery." uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Minor" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrDemesne" name="P/NP: Demesne" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You naturally create a space within the Nevernever." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Nevnev" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrSprtFrm" name="P/NP: Spirit Form" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You are an incorporeal spirit form." uniqueness="unique">
+    <fieldval field="stRefCost" value="3" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Nevnev" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrSwftTra" name="P/NP: Swift Transition" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Nevnev" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrWrldWlk" name="P/NP: Worldwalker" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You can open a gateway to the Nevernever." uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Nevnev" />
+    <tag group="Supernat" tag="Supernat" />
+    <eval phase="PreTraits" priority="500"><![CDATA[if (hero.tagis[Stunt.pwrEvocati] + hero.tagis[Stunt.pwrThaumat] + hero.tagis[Stunt.pwrChannel] + hero.tagis[Stunt.pwrRitual] <> 0) then
+   herofield[acRefrStnt].value -= 2
+endif]]></eval>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrCassTrs" name="P/PA: Cassandra's Tears" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You have a limited ability to see the future." uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Supernat" tag="Psychic" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrDominat" name="P/PA: Domination" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="Break down a targetâ€™s will through direct psychic assault." uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Psychic" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="pwrPossess" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrMstrDom" ispreclude="yes" />
+  </thing>
+  <thing id="pwrInctEmo" name="P/PA: Incite Emotion" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Psychic" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrPsymtry" name="P/PA: Psychometry" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="Gilmpses of the past when you touch objects." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Psychic" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrSight" name="P/PA: The Sight" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="Open your third eye." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Psychic" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrSoulGaz" name="P/PA: Soulgaze" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="Gaze upon a mortal's soul." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Psychic" />
+    <tag group="Supernat" tag="Supernat" />
+    <eval phase="PreTraits" priority="500"><![CDATA[if (hero.tagis[Stunt.pwrSight] <> 0) then
+   herofield[acRefrStnt].value -=1
+endif]]></eval>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrBeastCh" name="P/SH: Beast Change" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Shapeshft" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrDemCoPi" name="P/SH: Demonic Co-Pilot" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Shapeshft" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrFlshMsk" name="P/SH: Flesh Mask" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Shapeshft" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrGasForm" name="P/SH: Gaseous Form" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="3" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Shapeshft" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrHumForm" name="P/SH: Human Form" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <fieldval field="stRefBonus" value="1" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Shapeshft" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrHumGuis" name="P/SH: Human Guise" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Shapeshft" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrMimicAb" name="P/SH: Mimic Abilities" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowIncr" />
+    <tag group="Supernat" tag="Shapeshft" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrMimicFo" name="P/SH: Mimic Form" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Shapeshft" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrModAbil" name="P/SH: Modular Abilities" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowIncr" />
+    <tag group="Supernat" tag="Shapeshft" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrTruShap" name="P/SH: True Shapeshifting" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="4" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Shapeshft" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrInhuSpd" name="P/SP: Inhuman Speed" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Speed" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="pwrMythSpd" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrSupnSpd" ispreclude="yes" />
+  </thing>
+  <thing id="pwrSupnSpd" name="P/SP: Supernatural Speed" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="4" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Speed" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="pwrMythSpd" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrInhuSpd" ispreclude="yes" />
+  </thing>
+  <thing id="pwrMythSpd" name="P/SP: Mythic Speed" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="6" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Speed" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="pwrSupnSpd" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrInhuSpd" ispreclude="yes" />
+  </thing>
+  <thing id="pwrFocItem" name="P/IT: Focus Item" compset="Stunt">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Helper" tag="ShowIncr" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <exprreq message="Requires Evocation, Thaumaturgy, Channeling or Ritual."><![CDATA[hero.tagis[Stunt.pwrEvocati] + hero.tagis[Stunt.pwrThaumat] + hero.tagis[Stunt.pwrChannel] + hero.tagis[Stunt.pwrRitual] <> 0]]></exprreq>
+  </thing>
+  <thing id="pwrEnchItm" name="P/IT: Enchanted Item" compset="Stunt" summary="[-1] per slot.">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Helper" tag="ShowIncr" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <exprreq message="Requires Evocation, Thaumaturgy, Channeling or Ritual."><![CDATA[hero.tagis[Stunt.pwrEvocati] + hero.tagis[Stunt.pwrThaumat] + hero.tagis[Stunt.pwrChannel] + hero.tagis[Stunt.pwrRitual] <> 0]]></exprreq>
+  </thing>
+  <thing id="pwrEvocati" name="P/SC: Evocation" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="3" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Spellcraft" />
+    <tag group="Supernat" tag="Supernat" />
+    <bootstrap thing="pwrElement">
+    </bootstrap>
+    <bootstrap thing="pwrSpecial">
+    </bootstrap>
+    <bootstrap thing="pwrElement">
+    </bootstrap>
+    <bootstrap thing="pwrElement">
+    </bootstrap>
+    <evalrule phase="Validate" message="????"><![CDATA[var slots as number
+var maxslots as number
+
+slots = 0
+foreach pick in hero from Stunt where "thingid.pwrFocItem"
+   slots += eachpick.field[stNumber].value * 2
+nexteach
+
+foreach pick in hero from Stunt where "thingid.pwrEnchItm"
+   slots += eachpick.field[stNumber].value
+nexteach
+
+maxslots = 0
+if (hero.tagis[Stunt.pwrEvocati] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrThaumat] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrChannel] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrRitual] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrRefinIt] <> 0) then
+   maxslots += 4
+endif
+
+validif (maxslots = slots) 
+
+if (maxslots > slots) then
+   @message = "You have underspent on Focus/Enchanted Item slots."
+elseif (maxslots < slots) then
+   @message = "You have overspent on Focus/Enchanted Item slots."
+endif]]></evalrule>
+    <pickreq thing="pwrChannel" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrThaumat" name="P/SC: Thaumaturgy" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="3" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Spellcraft" />
+    <tag group="Supernat" tag="Supernat" />
+    <bootstrap thing="pwrSpecial">
+    </bootstrap>
+    <evalrule phase="Validate" message="????"><![CDATA[var slots as number
+var maxslots as number
+
+slots = 0
+foreach pick in hero from Stunt where "thingid.pwrFocItem"
+   slots += eachpick.field[stNumber].value * 2
+nexteach
+
+foreach pick in hero from Stunt where "thingid.pwrEnchItm"
+   slots += eachpick.field[stNumber].value
+nexteach
+
+maxslots = 0
+if (hero.tagis[Stunt.pwrEvocati] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrThaumat] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrChannel] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrRitual] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrRefinIt] <> 0) then
+   maxslots += 4
+endif
+
+validif (maxslots = slots) 
+
+if (maxslots > slots) then
+   @message = "You have underspent on Focus/Enchanted Item slots."
+elseif (maxslots < slots) then
+   @message = "You have overspent on Focus/Enchanted Item slots."
+endif]]></evalrule>
+    <pickreq thing="pwrRitual" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrChannel" name="P/SC: Channeling" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Spellcraft" />
+    <tag group="Supernat" tag="Supernat" />
+    <evalrule phase="Validate" message="????"><![CDATA[var slots as number
+var maxslots as number
+
+slots = 0
+foreach pick in hero from Stunt where "thingid.pwrFocItem"
+   slots += eachpick.field[stNumber].value * 2
+nexteach
+
+foreach pick in hero from Stunt where "thingid.pwrEnchItm"
+   slots += eachpick.field[stNumber].value
+nexteach
+
+maxslots = 0
+if (hero.tagis[Stunt.pwrEvocati] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrThaumat] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrChannel] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrRitual] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrRefinIt] <> 0) then
+   maxslots += 4
+endif
+
+validif (maxslots = slots) 
+
+if (maxslots > slots) then
+   @message = "You have underspent on Focus/Enchanted Item slots."
+elseif (maxslots < slots) then
+   @message = "You have overspent on Focus/Enchanted Item slots."
+endif]]></evalrule>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrEvocati" ispreclude="yes" />
+  </thing>
+  <thing id="pwrRitual" name="P/SC: Ritual" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Spellcraft" />
+    <tag group="Supernat" tag="Supernat" />
+    <evalrule phase="Validate" message="????"><![CDATA[var slots as number
+var maxslots as number
+
+slots = 0
+foreach pick in hero from Stunt where "thingid.pwrFocItem"
+   slots += eachpick.field[stNumber].value * 2
+nexteach
+
+foreach pick in hero from Stunt where "thingid.pwrEnchItm"
+   slots += eachpick.field[stNumber].value
+nexteach
+
+maxslots = 0
+if (hero.tagis[Stunt.pwrEvocati] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrThaumat] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrChannel] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrRitual] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrRefinIt] <> 0) then
+   maxslots += 4
+endif
+
+validif (maxslots = slots) 
+
+if (maxslots > slots) then
+   @message = "You have underspent on Focus/Enchanted Item slots."
+elseif (maxslots < slots) then
+   @message = "You have overspent on Focus/Enchanted Item slots."
+endif]]></evalrule>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrThaumat" ispreclude="yes" />
+  </thing>
+  <thing id="pwrLawbrkr" name="P/SC: Lawbreaker" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Supernat" tag="Spellcraft" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrRefinSp" name="P/SC: Refinement: Specialization" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Spellcraft" />
+    <tag group="Supernat" tag="Supernat" />
+    <tag group="Helper" tag="ShowIncr" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <bootstrap thing="pwrSpecial">
+    </bootstrap>
+    <bootstrap thing="pwrSpecial">
+    </bootstrap>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <exprreq message="Requires Evocation or Thaumaturgy."><![CDATA[hero.tagis[Stunt.pwrEvocati] + hero.tagis[Stunt.pwrThaumat] <> 0]]></exprreq>
+  </thing>
+  <thing id="pwrSponMag" name="P/SC: Sponsored Magic" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Helper" tag="ShowIncr" />
+    <tag group="Supernat" tag="Spellcraft" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrInhumSt" name="P/ST: Inhuman Strength" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Strength" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="pwrMythStr" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrSupnStr" ispreclude="yes" />
+  </thing>
+  <thing id="pwrSupnStr" name="P/ST: Supernatural Strength" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="4" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Strength" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="pwrMythStr" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrInhumSt" ispreclude="yes" />
+  </thing>
+  <thing id="pwrMythStr" name="P/ST: Mythic Strength" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="6" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Strength" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="pwrSupnStr" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrInhumSt" ispreclude="yes" />
+  </thing>
+  <thing id="pwrCatch" name="P/TO: The Catch" compset="Stunt">
+    <fieldval field="stRefCost" value="0" />
+    <fieldval field="stRefBonus" value="1" />
+    <usesource source="srcDresden" />
+    <tag group="Helper" tag="ShowIncr" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Supernat" tag="Tough" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Supernat" />
+    <eval phase="PreTraits"><![CDATA[var thisbonus as number
+var highbonus as number
+var catches as number
+var rootishigh as number
+
+herofield[acRefrBase].value -= field[stNumber].value
+highbonus = 0
+catches = 0
+rootishigh = 0
+foreach pick in hero from Stunt where "thingid.pwrCatch"
+   thisbonus = eachpick.field[stNumber].value
+   if (thisbonus > highbonus) then
+      highbonus = thisbonus
+      rootishigh = compare(uniqindex,eachpick.uniqindex)
+   endif
+nexteach
+
+
+if (rootishigh = 0) then
+   herofield[acRefrBase].value += highbonus
+endif]]></eval>
+    <evalrule phase="Validate" message="Total Toughness costs must exceed total Catch bonuses."><![CDATA[var catchtotal as number
+var toughtotal as number
+
+catchtotal = 0
+foreach pick in hero from Stunt where "thingid.pwrCatch"
+   catchtotal += eachpick.field[stNumber].value
+nexteach
+
+catchtotal += hero.childfound[pwrStkCatc].field[stNumber].value
+toughtotal = hero.childfound[pwrInhuRec].field[stRefCost].value + hero.childfound[pwrInhuTou].field[stRefCost].value + hero.childfound[pwrSupnRec].field[stRefCost].value + hero.childfound[pwrSupnTou].field[stRefCost].value + hero.childfound[pwrMythRec].field[stRefCost].value + hero.childfound[pwrMythTou].field[stRefCost].value + hero.childfound[pwrPhysImm].field[stRefCost].value
+
+validif (catchtotal < toughtotal)]]></evalrule>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <exprreq message="Requires a Toughness power."><![CDATA[hero.tagis[Stunt.pwrInhuRec] + hero.tagis[Stunt.pwrInhuTou] + hero.tagis[Stunt.pwrSupnRec] + hero.tagis[Stunt.pwrSupnTou] + hero.tagis[Stunt.pwrMythRec] + hero.tagis[Stunt.pwrMythTou] + hero.tagis[Stunt.pwrPhysImm] <> 0]]></exprreq>
+  </thing>
+  <thing id="pwrInhuRec" name="P/TO: Inhuman Recovery" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Tough" />
+    <tag group="Supernat" tag="Supernat" />
+    <evalrule phase="Validate" message="Requires The Catch."><![CDATA[validif (hero.tagis[Stunt.pwrCatch] <> 0)]]></evalrule>
+    <pickreq thing="pwrSupnRec" ispreclude="yes" />
+    <pickreq thing="pwrMythRec" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrSupnRec" name="P/TO: Supernatural Recovery" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="4" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Tough" />
+    <tag group="Supernat" tag="Supernat" />
+    <evalrule phase="Validate" message="Requires The Catch."><![CDATA[validif (hero.tagis[Stunt.pwrCatch] <> 0)]]></evalrule>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrInhuRec" ispreclude="yes" />
+    <pickreq thing="pwrMythRec" ispreclude="yes" />
+  </thing>
+  <thing id="pwrSupnTou" name="P/TO: Supernatural Toughness" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="4" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Tough" />
+    <tag group="Supernat" tag="Supernat" />
+    <eval phase="Initialize" priority="500">hero.childfound[strPhys].field[strMax].value += 4</eval>
+    <evalrule phase="Validate" message="Requires The Catch."><![CDATA[validif (hero.tagis[Stunt.pwrCatch] <> 0)]]></evalrule>
+    <pickreq thing="pwrInhuTou" ispreclude="yes" />
+    <pickreq thing="pwrMythTou" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrMythRec" name="P/TO: Mythic Recovery" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="6" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Tough" />
+    <tag group="Supernat" tag="Supernat" />
+    <evalrule phase="Validate" message="Requires The Catch."><![CDATA[validif (hero.tagis[Stunt.pwrCatch] <> 0)]]></evalrule>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrInhuRec" ispreclude="yes" />
+    <pickreq thing="pwrMythRec" ispreclude="yes" />
+  </thing>
+  <thing id="pwrMythTou" name="P/TO: Mythic Toughness" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="6" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Tough" />
+    <tag group="Supernat" tag="Supernat" />
+    <eval phase="Initialize" priority="500">hero.childfound[strPhys].field[strMax].value += 6</eval>
+    <evalrule phase="Validate" message="Requires The Catch."><![CDATA[validif (hero.tagis[Stunt.pwrCatch] <> 0)]]></evalrule>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrInhuTou" ispreclude="yes" />
+    <pickreq thing="pwrSupnTou" ispreclude="yes" />
+  </thing>
+  <thing id="pwrPhysImm" name="P/TO: Physical Immunity" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="8" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Tough" />
+    <tag group="Supernat" tag="Supernat" />
+    <evalrule phase="Validate" message="Requires The Catch."><![CDATA[validif (hero.tagis[Stunt.pwrCatch] <> 0)]]></evalrule>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrBlessHs" name="P/TF: Bless This House" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Faith" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrGuidHnd" name="P/TF: Guide My Hand" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Faith" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrHolyTch" name="P/TF: Holy Touch" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Faith" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrRighteo" />
+  </thing>
+  <thing id="pwrRighteo" name="P/TF: Righteousness" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Faith" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrEmoVamp" name="P/VA: Emotional Vampire" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Vampirism" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrFeedDep" name="P/VA: Feeding Dependency" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <fieldval field="stRefBonus" value="1" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Vampirism" />
+    <tag group="Supernat" tag="Supernat" />
+    <bootstrap thing="strHunger">
+    </bootstrap>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrTattGil" name="P/VA: Tattoos of St. Giles" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Vampirism" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="tmpRdCrtIn" />
+  </thing>
+  <thing id="pwrVenom" name="P/CF: Venomous" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="Use as Weapon:2 for Fists attacks.  Maneuver to poison." uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Creature" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrClaws" />
+  </thing>
+  <thing id="pwrStrngSn" name="P/CF: Strange Senses" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You have up to three supernatural senses." uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Creature" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="pwrBrdSnse" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrSupSnse" />
+  </thing>
+  <thing id="pwrBrdSnse" name="P/CF: Broad Senses" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You have up to a dozen supernatural senses." uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Creature" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="pwrSupSnse" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrStrngSn" ispreclude="yes" />
+  </thing>
+  <thing id="pwrBldDrnk" name="P/VA: Blood Drinker" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Vampirism" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrPoltrgs" name="P/NP: Poltergeist" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You are an incorporeal spirit form." uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Nevnev" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrSprtFrm" />
+  </thing>
+  <thing id="pwrNoHome" name="P/NP: No Mortal Home" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <fieldval field="stRefBonus" value="1" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Nevnev" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrSwftTra" />
+  </thing>
+  <thing id="pwrMstrDom" name="P/PA: Master Dominator" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="Break down a targetâ€™s will through direct psychic assault." uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Psychic" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="pwrPossess" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrDominat" />
+  </thing>
+  <thing id="pwrPossess" name="P/PA: Possession" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="Break down a targetâ€™s will through direct psychic assault." uniqueness="unique">
+    <fieldval field="stRefCost" value="3" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Psychic" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="pwrMstrDom" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrDominat" />
+  </thing>
+  <thing id="pwrItmDisc" name="P/IT: One-Time Discount" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" summary="You externalize some of your power." uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <fieldval field="stRefBonus" value="1" />
+    <usesource source="srcDresden" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Item" />
+    <tag group="Helper" tag="ShowIncr" />
+    <tag group="Supernat" tag="Supernat" />
+    <evalrule phase="Validate" message="This bonus cannot exceed +2"><![CDATA[validif (field[stNumber].value <= 2)]]></evalrule>
+    <pickreq thing="pwrItem" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrAddEmo" name="P/PA: Additional Emotion" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Helper" tag="ShowIncr" />
+    <tag group="Supernat" tag="Psychic" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrInctEmo" />
+  </thing>
+  <thing id="pwrAtRange" name="P/PA: At Range" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Supernat" tag="Psychic" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrInctEmo" />
+  </thing>
+  <thing id="pwrLastEmo" name="P/PA: Lasting Emotion" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Supernat" tag="Psychic" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrInctEmo" />
+  </thing>
+  <thing id="pwrPotEmo" name="P/PA: Potent Emotion" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Supernat" tag="Psychic" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="pwrLastEmo" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrInctEmo" />
+  </thing>
+  <thing id="pwrRareInv" name="P/SH: Rare or Involuntary" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <fieldval field="stRefBonus" value="1" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Shapeshft" />
+    <tag group="Supernat" tag="Supernat" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrHumForm" />
+  </thing>
+  <thing id="pwrInhuTou" name="P/TO: Inhuman Toughness" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="2" />
+    <usesource source="srcDresden" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Supernat" tag="Tough" />
+    <tag group="Supernat" tag="Supernat" />
+    <eval phase="Initialize" priority="500">hero.childfound[strPhys].field[strMax].value += 2</eval>
+    <evalrule phase="Validate" message="Requires The Catch."><![CDATA[validif (hero.tagis[Stunt.pwrCatch] <> 0)]]></evalrule>
+    <pickreq thing="pwrMythTou" ispreclude="yes" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrSupnTou" ispreclude="yes" />
+  </thing>
+  <thing id="pwrStkCatc" name="P/TO: Stacked Catch" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="unique">
+    <fieldval field="stRefCost" value="0" />
+    <fieldval field="stRefBonus" value="1" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Helper" tag="ShowIncr" />
+    <tag group="Supernat" tag="Tough" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="Supernat" tag="Supernat" />
+    <evalrule phase="Validate" message="Total Toughness costs must exceed total Catch bonuses."><![CDATA[var catchtotal as number
+var toughtotal as number
+
+catchtotal = 0
+foreach pick in hero from Stunt where "thingid.pwrCatch"
+   catchtotal += eachpick.field[stNumber].value
+nexteach
+
+catchtotal += hero.childfound[pwrStkCatc].field[stNumber].value
+toughtotal = hero.childfound[pwrInhuRec].field[stRefCost].value + hero.childfound[pwrInhuTou].field[stRefCost].value + hero.childfound[pwrSupnRec].field[stRefCost].value + hero.childfound[pwrSupnTou].field[stRefCost].value + hero.childfound[pwrMythRec].field[stRefCost].value + hero.childfound[pwrMythTou].field[stRefCost].value + hero.childfound[pwrPhysImm].field[stRefCost].value
+
+validif (catchtotal < toughtotal)]]></evalrule>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <pickreq thing="pwrPhysImm" />
+    <pickreq thing="pwrCatch" />
+  </thing>
+  <thing id="pwrElement" name="P/SC: Element" compset="Stunt">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Spellcraft" />
+    <tag group="Supernat" tag="Supernat" />
+    <evalrule phase="Validate" priority="500" message="????"><![CDATA[~This stunt should not be user added.
+validif (tagis[thing.user_added] = 0)
+@message = "Cannot be user added."]]></evalrule>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrSpecial" name="P/SC: Specialization" compset="Stunt">
+    <fieldval field="stRefCost" value="0" />
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Spellcraft" />
+    <tag group="Supernat" tag="Supernat" />
+    <evalrule phase="Validate" message="????"><![CDATA[~This stunt should not be user added.
+validif (tagis[thing.user_added] = 0)
+@message = "Cannot be user added."]]></evalrule>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+  </thing>
+  <thing id="pwrRefinEl" name="P/SC: Refinement: Element" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Spellcraft" />
+    <tag group="Supernat" tag="Supernat" />
+    <tag group="Helper" tag="ShowIncr" />
+    <tag group="Helper" tag="ShowUsrTxt" />
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <exprreq message="Requires Evocation or Thaumaturgy."><![CDATA[hero.tagis[Stunt.pwrEvocati] + hero.tagis[Stunt.pwrThaumat] <> 0]]></exprreq>
+  </thing>
+  <thing id="pwrRefinIt" name="P/SC: Refinement: Item Slots" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="AssocSkill" tag="skAACustom" />
+    <tag group="Supernat" tag="Spellcraft" />
+    <tag group="Supernat" tag="Supernat" />
+    <tag group="Helper" tag="ShowIncr" />
+    <evalrule phase="Validate" message="????"><![CDATA[var slots as number
+var maxslots as number
+
+slots = 0
+foreach pick in hero from Stunt where "thingid.pwrFocItem"
+   slots += eachpick.field[stNumber].value * 2
+nexteach
+
+foreach pick in hero from Stunt where "thingid.pwrEnchItm"
+   slots += eachpick.field[stNumber].value
+nexteach
+
+maxslots = 0
+if (hero.tagis[Stunt.pwrEvocati] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrThaumat] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrChannel] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrRitual] <> 0) then
+   maxslots += 4
+endif
+
+if (hero.tagis[Stunt.pwrRefinIt] <> 0) then
+   maxslots += 4
+endif
+
+validif (maxslots = slots) 
+
+if (maxslots > slots) then
+   @message = "You have underspent on Focus/Enchanted Item slots."
+elseif (maxslots < slots) then
+   @message = "You have overspent on Focus/Enchanted Item slots."
+endif]]></evalrule>
+    <pickreq thing="tmpMortal" ispreclude="yes" />
+    <exprreq message="Requires Evocation or Thaumaturgy."><![CDATA[hero.tagis[Stunt.pwrEvocati] + hero.tagis[Stunt.pwrThaumat] <> 0]]></exprreq>
+  </thing>
+  <preclude id="stHardShak" source="srcDresden" />
+  <preclude id="stPedMetal" source="srcDresden" />
+  <preclude id="stRamSpd" source="srcDresden" />
+  <preclude id="stLieWhisp" source="srcDresden" />
+  <preclude id="stNosTroub" source="srcDresden" />
+  <preclude id="stPsycholo" source="srcDresden" />
+  <preclude id="stAttDetai" source="srcDresden" />
+  <preclude id="stEavesdro" source="srcDresden" />
+  <preclude id="stReadAbou" source="srcDresden" />
+  <preclude id="stShielRea" source="srcDresden" />
+  <preclude id="stSpeciali" source="srcDresden" />
+  <preclude id="stDemagogu" source="srcDresden" />
+  <preclude id="stPopular" source="srcDresden" />
+  <preclude id="stSavInves" source="srcDresden" />
+  <preclude id="stFaceCrwd" source="srcDresden" />
+  <preclude id="stNinjVani" source="srcDresden" />
+  <preclude id="stSlipTarg" source="srcDresden" />
+  <preclude id="stDazCount" source="srcDresden" />
+  <preclude id="stParkour" source="srcDresden" />
+  <preclude id="stMonTalk" source="srcDresden" />
+  <preclude id="stSprinter" source="srcDresden" />
+  <preclude id="stWayOut" source="srcDresden" />
+  <preclude id="stSecSpec" source="srcDresden" />
+  <preclude id="stTalkBurg" source="srcDresden" />
+</document>

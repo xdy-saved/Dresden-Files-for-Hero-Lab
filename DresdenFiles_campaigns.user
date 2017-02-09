@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document signature="Hero Lab Data">
+  <thing id="camDres4" name="Dresden Files: 4 - Submerged" description="{b}Source:{/b} Dresden Files RPG" compset="Campaign" uniqueness="unique">
+    <fieldval field="camSklCap" value="5" />
+    <fieldval field="camSklRank" value="35" />
+    <fieldval field="camRefresh" value="10" />
+    <fieldval field="camDefStrs" value="2" />
+    <fieldval field="Hist1Name" value="Where did you come from?" />
+    <fieldval field="Hist2Name" value="What shaped you?" />
+    <fieldval field="Hist3Name" value="What was your first adventure?" />
+    <fieldval field="Hist4Name" value="Whose path have you crossed?" />
+    <fieldval field="Hist5Name" value="Who else's path?" />
+    <fieldval field="camAspects" value="5" />
+    <usesource source="srcDresden" parent="UserParent" name="Dresden Files" />
+    <tag group="Skill" tag="skDiscip" name="Discipline" abbrev="Discipline" />
+    <tag group="Skill" tag="skDrive" name="Drive" abbrev="Drive" />
+    <tag group="Skill" tag="skDriving" name="Driving" abbrev="Driving" />
+    <tag group="Skill" tag="skEmpathy" name="Empathy" abbrev="Empathy" />
+    <tag group="Skill" tag="skEndure" name="Endurance" abbrev="Endurance" />
+    <tag group="Skill" tag="skFists" name="Fists" abbrev="Fists" />
+    <tag group="Skill" tag="skGuns" name="Guns" abbrev="Guns" />
+    <tag group="Skill" tag="skIntim" name="Intimidation" abbrev="Intimidation" />
+    <tag group="Skill" tag="skLore" name="Lore" abbrev="Lore" />
+    <tag group="Skill" tag="skMight" name="Might" abbrev="Might" />
+    <tag group="Skill" tag="skPerform" name="Performance" abbrev="Performance" />
+    <tag group="Skill" tag="skPresence" name="Presence" abbrev="Presence" />
+    <tag group="Skill" tag="skRapport" name="Rapport" abbrev="Rapport" />
+    <tag group="Skill" tag="skResource" name="Resources" abbrev="Resources" />
+    <tag group="Skill" tag="skScholar" name="Scholarship" abbrev="Scholarship" />
+    <tag group="Skill" tag="skStealth" name="Stealth" abbrev="Stealth" />
+    <tag group="Skill" tag="skSurvival" name="Survival" abbrev="Survival" />
+    <tag group="Skill" tag="skWeapons" name="Weapons" abbrev="Weapons" />
+    <tag group="SocInit" tag="skEmpathy" name="Empathy" abbrev="Empathy" />
+    <tag group="Campaign" tag="FiveHist" name="FiveHist" abbrev="FiveHist" />
+    <tag group="Campaign" tag="FourHist" name="FourHist" abbrev="FourHist" />
+    <tag group="Campaign" tag="SkillCols" />
+    <tag group="PhysInit" tag="skAlert" name="Alertness" abbrev="Alertness" />
+    <tag group="Skill" tag="skAlert" name="Alertness" abbrev="Alertness" />
+    <tag group="Skill" tag="skAthletic" name="Athletics" abbrev="Athletics" />
+    <tag group="Skill" tag="skBurglary" name="Burglary" abbrev="Burglary" />
+    <tag group="Skill" tag="skContact" name="Contacts" abbrev="Contacts" />
+    <tag group="Skill" tag="skConvict" name="Conviction" abbrev="Conviction" />
+    <tag group="Skill" tag="skCraftman" name="Craftsmanship" abbrev="Craftsmanship" />
+    <tag group="Skill" tag="skDeceive" name="Deceit" abbrev="Deceit" />
+    <tag group="Skill" tag="skInvestig" />
+    <tag group="Skill" tag="catCrtrFtr" />
+    <bootstrap thing="strMental">
+    </bootstrap>
+    <bootstrap thing="aspCustom">
+      <autotag group="HistAspNum" tag="4" />
+      <autotag group="portal" tag="baAspect4" />
+      <autotag group="thing" tag="user_added" />
+    </bootstrap>
+    <bootstrap thing="aspCustom">
+      <autotag group="HistAspNum" tag="5" />
+      <autotag group="portal" tag="baAspect5" />
+      <autotag group="thing" tag="user_added" />
+    </bootstrap>
+    <bootstrap thing="strSocial">
+    </bootstrap>
+    <bootstrap thing="strPhys">
+    </bootstrap>
+    <evalrule phase="Validate" message="????"><![CDATA[~Validate at least one stunt with the tag "Template.Template"
+perform hero.findchild[Stunt,"Template.Template"].setfocus
+validif (state.isfocus <> 0)
+@message = "You must select a Template."
+
+~Validate that there's only one stunt
+~var foundcount as number
+~foreach pick in hero from Stunt where "Template.Template"
+~  foundcount += 1
+~  nexteach
+~validif (foundcount = 1)
+~@message = "You must select 1 Template.  You have " & foundcount & "."]]></evalrule>
+  </thing>
+  <thing id="camDres1" name="Dresden Files: 1 - Feet in the Water" description="{b}Source:{/b} Dresden Files RPG" compset="Campaign" uniqueness="unique">
+    <fieldval field="camAspects" value="5" />
+    <fieldval field="camSklCap" value="4" />
+    <fieldval field="camSklRank" value="20" />
+    <fieldval field="camRefresh" value="6" />
+    <fieldval field="camDefStrs" value="2" />
+    <fieldval field="Hist1Name" value="Where did you come from?" />
+    <fieldval field="Hist2Name" value="What shaped you?" />
+    <fieldval field="Hist3Name" value="What was your first adventure?" />
+    <fieldval field="Hist4Name" value="Whose path have you crossed?" />
+    <fieldval field="Hist5Name" value="Who else's path?" />
+    <usesource source="srcDresden" parent="UserParent" name="Dresden Files" />
+    <tag group="Skill" tag="skDiscip" name="Discipline" abbrev="Discipline" />
+    <tag group="Skill" tag="skDrive" name="Drive" abbrev="Drive" />
+    <tag group="Skill" tag="skDriving" name="Driving" abbrev="Driving" />
+    <tag group="Skill" tag="skEmpathy" name="Empathy" abbrev="Empathy" />
+    <tag group="Skill" tag="skEndure" name="Endurance" abbrev="Endurance" />
+    <tag group="Skill" tag="skFists" name="Fists" abbrev="Fists" />
+    <tag group="Skill" tag="skGuns" name="Guns" abbrev="Guns" />
+    <tag group="Skill" tag="skIntim" name="Intimidation" abbrev="Intimidation" />
+    <tag group="Skill" tag="skLore" name="Lore" abbrev="Lore" />
+    <tag group="Skill" tag="skMight" name="Might" abbrev="Might" />
+    <tag group="Skill" tag="skPerform" name="Performance" abbrev="Performance" />
+    <tag group="Skill" tag="skPresence" name="Presence" abbrev="Presence" />
+    <tag group="Skill" tag="skRapport" name="Rapport" abbrev="Rapport" />
+    <tag group="Skill" tag="skResource" name="Resources" abbrev="Resources" />
+    <tag group="Skill" tag="skScholar" name="Scholarship" abbrev="Scholarship" />
+    <tag group="Skill" tag="skStealth" name="Stealth" abbrev="Stealth" />
+    <tag group="Skill" tag="skSurvival" name="Survival" abbrev="Survival" />
+    <tag group="Skill" tag="skWeapons" name="Weapons" abbrev="Weapons" />
+    <tag group="SocInit" tag="skEmpathy" name="Empathy" abbrev="Empathy" />
+    <tag group="Campaign" tag="FiveHist" name="FiveHist" abbrev="FiveHist" />
+    <tag group="Campaign" tag="FourHist" name="FourHist" abbrev="FourHist" />
+    <tag group="Campaign" tag="SkillCols" name="Skill Columns" abbrev="Skill Columns" />
+    <tag group="PhysInit" tag="skAlert" name="Alertness" abbrev="Alertness" />
+    <tag group="Skill" tag="skAlert" name="Alertness" abbrev="Alertness" />
+    <tag group="Skill" tag="skAthletic" name="Athletics" abbrev="Athletics" />
+    <tag group="Skill" tag="skBurglary" name="Burglary" abbrev="Burglary" />
+    <tag group="Skill" tag="skContact" name="Contacts" abbrev="Contacts" />
+    <tag group="Skill" tag="skConvict" name="Conviction" abbrev="Conviction" />
+    <tag group="Skill" tag="skCraftman" name="Craftsmanship" abbrev="Craftsmanship" />
+    <tag group="Skill" tag="skDeceive" name="Deceit" abbrev="Deceit" />
+    <tag group="Skill" tag="skInvestig" />
+    <bootstrap thing="strMental">
+    </bootstrap>
+    <bootstrap thing="aspCustom">
+      <autotag group="HistAspNum" tag="4" />
+      <autotag group="portal" tag="baAspect4" />
+      <autotag group="thing" tag="user_added" />
+    </bootstrap>
+    <bootstrap thing="aspCustom">
+      <autotag group="HistAspNum" tag="5" />
+      <autotag group="portal" tag="baAspect5" />
+      <autotag group="thing" tag="user_added" />
+    </bootstrap>
+    <bootstrap thing="strSocial">
+    </bootstrap>
+    <bootstrap thing="strPhys">
+    </bootstrap>
+    <evalrule phase="Validate" message="????"><![CDATA[~Validate at least one stunt with the tag "Template.Template"
+perform hero.findchild[Stunt,"Template.Template"].setfocus
+validif (state.isfocus <> 0)
+@message = "You must select a Template."
+
+~Validate that there's only one stunt
+~var foundcount as number
+~foreach pick in hero from Stunt where "Template.Template"
+~  foundcount += 1
+~  nexteach
+~validif (foundcount = 1)
+~@message = "You must select 1 Template.  You have " & foundcount & "."]]></evalrule>
+  </thing>
+  <thing id="camDres2" name="Dresden Files: 2 - Up to Your Waist" description="{b}Source:{/b} Dresden Files RPG" compset="Campaign" uniqueness="unique">
+    <fieldval field="camAspects" value="5" />
+    <fieldval field="camSklCap" value="4" />
+    <fieldval field="camSklRank" value="25" />
+    <fieldval field="camRefresh" value="7" />
+    <fieldval field="camDefStrs" value="2" />
+    <fieldval field="Hist1Name" value="Where did you come from?" />
+    <fieldval field="Hist2Name" value="What shaped you?" />
+    <fieldval field="Hist3Name" value="What was your first adventure?" />
+    <fieldval field="Hist4Name" value="Whose path have you crossed?" />
+    <fieldval field="Hist5Name" value="Who else's path?" />
+    <usesource source="srcDresden" parent="UserParent" name="Dresden Files" />
+    <tag group="Skill" tag="skDiscip" name="Discipline" abbrev="Discipline" />
+    <tag group="Skill" tag="skDrive" name="Drive" abbrev="Drive" />
+    <tag group="Skill" tag="skDriving" name="Driving" abbrev="Driving" />
+    <tag group="Skill" tag="skEmpathy" name="Empathy" abbrev="Empathy" />
+    <tag group="Skill" tag="skEndure" name="Endurance" abbrev="Endurance" />
+    <tag group="Skill" tag="skFists" name="Fists" abbrev="Fists" />
+    <tag group="Skill" tag="skGuns" name="Guns" abbrev="Guns" />
+    <tag group="Skill" tag="skIntim" name="Intimidation" abbrev="Intimidation" />
+    <tag group="Skill" tag="skLore" name="Lore" abbrev="Lore" />
+    <tag group="Skill" tag="skMight" name="Might" abbrev="Might" />
+    <tag group="Skill" tag="skPerform" name="Performance" abbrev="Performance" />
+    <tag group="Skill" tag="skPresence" name="Presence" abbrev="Presence" />
+    <tag group="Skill" tag="skRapport" name="Rapport" abbrev="Rapport" />
+    <tag group="Skill" tag="skResource" name="Resources" abbrev="Resources" />
+    <tag group="Skill" tag="skScholar" name="Scholarship" abbrev="Scholarship" />
+    <tag group="Skill" tag="skStealth" name="Stealth" abbrev="Stealth" />
+    <tag group="Skill" tag="skSurvival" name="Survival" abbrev="Survival" />
+    <tag group="Skill" tag="skWeapons" name="Weapons" abbrev="Weapons" />
+    <tag group="SocInit" tag="skEmpathy" name="Empathy" abbrev="Empathy" />
+    <tag group="Campaign" tag="FiveHist" name="FiveHist" abbrev="FiveHist" />
+    <tag group="Campaign" tag="FourHist" name="FourHist" abbrev="FourHist" />
+    <tag group="Campaign" tag="SkillCols" name="Skill Columns" abbrev="Skill Columns" />
+    <tag group="PhysInit" tag="skAlert" name="Alertness" abbrev="Alertness" />
+    <tag group="Skill" tag="skAlert" name="Alertness" abbrev="Alertness" />
+    <tag group="Skill" tag="skAthletic" name="Athletics" abbrev="Athletics" />
+    <tag group="Skill" tag="skBurglary" name="Burglary" abbrev="Burglary" />
+    <tag group="Skill" tag="skContact" name="Contacts" abbrev="Contacts" />
+    <tag group="Skill" tag="skConvict" name="Conviction" abbrev="Conviction" />
+    <tag group="Skill" tag="skCraftman" name="Craftsmanship" abbrev="Craftsmanship" />
+    <tag group="Skill" tag="skDeceive" name="Deceit" abbrev="Deceit" />
+    <tag group="Skill" tag="skInvestig" />
+    <bootstrap thing="strMental">
+    </bootstrap>
+    <bootstrap thing="aspCustom">
+      <autotag group="HistAspNum" tag="4" />
+      <autotag group="portal" tag="baAspect4" />
+      <autotag group="thing" tag="user_added" />
+    </bootstrap>
+    <bootstrap thing="aspCustom">
+      <autotag group="HistAspNum" tag="5" />
+      <autotag group="portal" tag="baAspect5" />
+      <autotag group="thing" tag="user_added" />
+    </bootstrap>
+    <bootstrap thing="strSocial">
+    </bootstrap>
+    <bootstrap thing="strPhys">
+    </bootstrap>
+    <evalrule phase="Validate" message="????"><![CDATA[~Validate at least one stunt with the tag "Template.Template"
+perform hero.findchild[Stunt,"Template.Template"].setfocus
+validif (state.isfocus <> 0)
+@message = "You must select a Template."
+
+~Validate that there's only one stunt
+~var foundcount as number
+~foreach pick in hero from Stunt where "Template.Template"
+~  foundcount += 1
+~  nexteach
+~validif (foundcount = 1)
+~@message = "You must select 1 Template.  You have " & foundcount & "."]]></evalrule>
+  </thing>
+  <thing id="camDres3" name="Dresden Files: 3 - Chest Deep" description="{b}Source:{/b} Dresden Files RPG" compset="Campaign" uniqueness="unique">
+    <fieldval field="camAspects" value="5" />
+    <fieldval field="camSklCap" value="5" />
+    <fieldval field="camSklRank" value="30" />
+    <fieldval field="camRefresh" value="8" />
+    <fieldval field="camDefStrs" value="2" />
+    <fieldval field="Hist1Name" value="Where did you come from?" />
+    <fieldval field="Hist2Name" value="What shaped you?" />
+    <fieldval field="Hist3Name" value="What was your first adventure?" />
+    <fieldval field="Hist4Name" value="Whose path have you crossed?" />
+    <fieldval field="Hist5Name" value="Who else's path?" />
+    <usesource source="srcDresden" parent="UserParent" name="Dresden Files" />
+    <tag group="Skill" tag="skDiscip" name="Discipline" abbrev="Discipline" />
+    <tag group="Skill" tag="skDrive" name="Drive" abbrev="Drive" />
+    <tag group="Skill" tag="skDriving" name="Driving" abbrev="Driving" />
+    <tag group="Skill" tag="skEmpathy" name="Empathy" abbrev="Empathy" />
+    <tag group="Skill" tag="skEndure" name="Endurance" abbrev="Endurance" />
+    <tag group="Skill" tag="skFists" name="Fists" abbrev="Fists" />
+    <tag group="Skill" tag="skGuns" name="Guns" abbrev="Guns" />
+    <tag group="Skill" tag="skIntim" name="Intimidation" abbrev="Intimidation" />
+    <tag group="Skill" tag="skLore" name="Lore" abbrev="Lore" />
+    <tag group="Skill" tag="skMight" name="Might" abbrev="Might" />
+    <tag group="Skill" tag="skPerform" name="Performance" abbrev="Performance" />
+    <tag group="Skill" tag="skPresence" name="Presence" abbrev="Presence" />
+    <tag group="Skill" tag="skRapport" name="Rapport" abbrev="Rapport" />
+    <tag group="Skill" tag="skResource" name="Resources" abbrev="Resources" />
+    <tag group="Skill" tag="skScholar" name="Scholarship" abbrev="Scholarship" />
+    <tag group="Skill" tag="skStealth" name="Stealth" abbrev="Stealth" />
+    <tag group="Skill" tag="skSurvival" name="Survival" abbrev="Survival" />
+    <tag group="Skill" tag="skWeapons" name="Weapons" abbrev="Weapons" />
+    <tag group="SocInit" tag="skEmpathy" name="Empathy" abbrev="Empathy" />
+    <tag group="Campaign" tag="FiveHist" name="FiveHist" abbrev="FiveHist" />
+    <tag group="Campaign" tag="FourHist" name="FourHist" abbrev="FourHist" />
+    <tag group="Campaign" tag="SkillCols" name="Skill Columns" abbrev="Skill Columns" />
+    <tag group="PhysInit" tag="skAlert" name="Alertness" abbrev="Alertness" />
+    <tag group="Skill" tag="skAlert" name="Alertness" abbrev="Alertness" />
+    <tag group="Skill" tag="skAthletic" name="Athletics" abbrev="Athletics" />
+    <tag group="Skill" tag="skBurglary" name="Burglary" abbrev="Burglary" />
+    <tag group="Skill" tag="skContact" name="Contacts" abbrev="Contacts" />
+    <tag group="Skill" tag="skConvict" name="Conviction" abbrev="Conviction" />
+    <tag group="Skill" tag="skCraftman" name="Craftsmanship" abbrev="Craftsmanship" />
+    <tag group="Skill" tag="skDeceive" name="Deceit" abbrev="Deceit" />
+    <tag group="Skill" tag="skInvestig" />
+    <bootstrap thing="strMental">
+    </bootstrap>
+    <bootstrap thing="aspCustom">
+      <autotag group="HistAspNum" tag="4" />
+      <autotag group="portal" tag="baAspect4" />
+      <autotag group="thing" tag="user_added" />
+    </bootstrap>
+    <bootstrap thing="aspCustom">
+      <autotag group="HistAspNum" tag="5" />
+      <autotag group="portal" tag="baAspect5" />
+      <autotag group="thing" tag="user_added" />
+    </bootstrap>
+    <bootstrap thing="strSocial">
+    </bootstrap>
+    <bootstrap thing="strPhys">
+    </bootstrap>
+    <evalrule phase="Validate" message="????"><![CDATA[~Validate at least one stunt with the tag "Template.Template"
+perform hero.findchild[Stunt,"Template.Template"].setfocus
+validif (state.isfocus <> 0)
+@message = "You must select a Template."
+
+~Validate that there's only one stunt
+~var foundcount as number
+~foreach pick in hero from Stunt where "Template.Template"
+~  foundcount += 1
+~  nexteach
+~validif (foundcount = 1)
+~@message = "You must select 1 Template.  You have " & foundcount & "."]]></evalrule>
+  </thing>
+  <preclude id="camAccel" source="srcDresden" />
+  <preclude id="camFatCore" source="srcDresden" />
+  <preclude id="camColumns" source="srcDresden" />
+  <preclude id="camSpirit" source="srcDresden" />
+</document>

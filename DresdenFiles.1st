@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<document signature="Hero Lab Structure">
+  <!--
+This is a comment.
+-->
+  <!-- ======================================== -->
+  <!-- CUSTOM GROUPS AND TAGS FOR DRESDEN FILES -->
+  <!-- ======================================== -->
+  <!-- Dresden Files custom tags -->
+  <group id="Supernat" name="Supernatural Powers">
+    <value id="Supernat" name="Supernatural Power" />
+    <value id="Creature" name="Creature Features" />
+    <value id="Faerie" name="Faerie Magic" />
+    <value id="Item" name="Item of Power" />
+    <value id="Minor" name="Minor Abilities" />
+    <value id="Nevnev" name="Nevernever Powers" />
+    <value id="Psychic" name="Psychic Abilities" />
+    <value id="Shapeshft" name="Shapeshifting" />
+    <value id="Speed" name="Speed" />
+    <value id="Spellcraft" name="Spellcraft" />
+    <value id="Strength" name="Strength" />
+    <value id="Tough" name="Toughness" />
+    <value id="Faith" name="True Faith" />
+    <value id="Vampirism" name="Vampirism" />
+  </group>
+  <group id="Template" name="Character Template">
+    <value id="Template" name="Template" />
+    <value id="Champion" name="Champion of God" />
+    <value id="Changeling" name="Changeling" />
+    <value id="Emissary" name="Emissary of Power" />
+    <value id="Focused" name="Focused Practitioner" />
+    <value id="Knight" name="Knight of a Faerie Court" />
+    <value id="Lycanthrop" name="Lycanthrope" />
+    <value id="MinorTalen" name="Minor Talent" />
+    <value id="PureMortal" name="Pure Mortal" />
+    <value id="RedCrtInf" name="Red Court Infected" />
+    <value id="Sorcerer" name="Sorcerer" />
+    <value id="TrueBeliev" name="True Believer" />
+    <value id="WereForm" name="Were-Form" />
+    <value id="WhtCrtVamp" name="White Court Vampire" />
+    <value id="WhtCrtVirg" name="White Court Virgin" />
+    <value id="Wizard" name="Wizard" />
+  </group>
+</document>

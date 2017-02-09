@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document signature="Hero Lab Data">
+  <thing id="skCraftman" name="Craftsmanship" description="{b}Source:{/b} Dresden Files RPG" compset="Skill" replaces="skCrafts" uniqueness="unique">
+    <fieldval field="trtAbbrev" value="Crf" />
+    <usesource source="srcDresden" />
+  </thing>
+  <thing id="skConvict" name="Conviction" description="{b}Source:{/b} Dresden Files RPG" compset="Skill" uniqueness="unique">
+    <fieldval field="trtAbbrev" value="Con" />
+    <usesource source="srcDresden" />
+    <eval phase="Final" priority="5000"><![CDATA[
+      if (field[sklRoll].value >= 5) then
+        herofield[acMildCons].value += 1
+        hero.childfound[strMental].field[strMax].value += 2
+      elseif (field[sklRoll].value >= 3) then
+        hero.childfound[strMental].field[strMax].value += 2
+      elseif (field[sklRoll].value >= 1) then
+        hero.childfound[strMental].field[strMax].value += 1
+        endif]]></eval>
+  </thing>
+  <thing id="skDeceive" name="Deceit" description="{b}Source:{/b} Dresden Files RPG" compset="Skill" replaces="skDeceit" uniqueness="unique">
+    <fieldval field="trtAbbrev" value="Dec" />
+    <usesource source="srcDresden" />
+  </thing>
+  <thing id="skPresence" name="Presence" description="{b}Source:{/b} Dresden Files RPG" compset="Skill" uniqueness="unique">
+    <fieldval field="trtAbbrev" value="Pres" />
+    <usesource source="srcDresden" />
+    <eval phase="Final" priority="5000"><![CDATA[
+      if (field[sklRoll].value >= 5) then
+        herofield[acMildCons].value += 1
+        hero.childfound[strSocial].field[strMax].value += 2
+      elseif (field[sklRoll].value >= 3) then
+        hero.childfound[strSocial].field[strMax].value += 2
+      elseif (field[sklRoll].value >= 1) then
+        hero.childfound[strSocial].field[strMax].value += 1
+        endif]]></eval>
+  </thing>
+  <thing id="skDiscip" name="Discipline" description="{b}Source:{/b} Dresden Files RPG" compset="Skill" uniqueness="unique">
+    <fieldval field="trtAbbrev" value="Dis" />
+    <usesource source="srcDresden" />
+    <eval phase="Final" priority="5000"><![CDATA[   if (hero.childfound[pwrFeedDep].field[stRefBonus].value = 1) then
+      if (field[sklRoll].value >= 5) then
+        herofield[acMildCons].value += 1
+        hero.childfound[strHunger].field[strMax].value += 2
+      elseif (field[sklRoll].value >= 3) then
+        hero.childfound[strHunger].field[strMax].value += 2
+      elseif (field[sklRoll].value >= 1) then
+        hero.childfound[strHunger].field[strMax].value += 1
+      endif
+   endif]]></eval>
+  </thing>
+  <thing id="skDriving" name="Driving" description="{b}Source:{/b} Dresden Files RPG" compset="Skill" replaces="skDrive" uniqueness="unique">
+    <fieldval field="trtAbbrev" value="Drv" />
+    <usesource source="srcDresden" />
+  </thing>
+  <thing id="skPerform" name="Performance" description="{b}Source:{/b} Dresden Files RPG" compset="Skill" uniqueness="unique">
+    <fieldval field="trtAbbrev" value="Perf" />
+    <usesource source="srcDresden" />
+  </thing>
+  <thing id="skScholar" name="Scholarship" description="{b}Source:{/b} Dresden Files RPG" compset="Skill" uniqueness="unique">
+    <fieldval field="trtAbbrev" value="Sch" />
+    <usesource source="srcDresden" />
+  </thing>
+  <thing id="skEnduran" name="Endurance" description="{b}Source:{/b} Dresden Files RPG" compset="Skill" replaces="skEndure" uniqueness="unique">
+    <fieldval field="trtAbbrev" value="End" />
+    <eval phase="Final" priority="5000"><![CDATA[
+      if (field[sklRoll].value >= 5) then
+        herofield[acMildCons].value += 1
+        hero.childfound[strPhys].field[strMax].value += 2
+      elseif (field[sklRoll].value >= 3) then
+        hero.childfound[strPhys].field[strMax].value += 2
+      elseif (field[sklRoll].value >= 1) then
+        hero.childfound[strPhys].field[strMax].value += 1
+        endif]]></eval>
+  </thing>
+  <thing id="skInvestig" name="Investigation" description="{b}Source:{/b} Dresden Files RPG" compset="Skill" uniqueness="unique">
+    <fieldval field="trtAbbrev" value="Invst" />
+    <usesource source="srcDresden" />
+  </thing>
+</document>

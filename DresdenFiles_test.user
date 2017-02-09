@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document signature="Hero Lab Data">
+  <thing id="stTest" name="TMPLT Test" description="{b}Source:{/b} Dresden Files RPG" compset="Stunt" uniqueness="useronce">
+    <usesource source="srcDresden" />
+    <tag group="Hide" tag="Tracker" name="Tracker" abbrev="Tracker" />
+    <tag group="Helper" tag="LegacyStun" name="Legacy Stunts" abbrev="Legacy Stunts" />
+    <tag group="AssocSkill" tag="skAlert" />
+    <pickreq thing="stSCAurFea" />
+    <exprreq message="Smooth Recovery required."><![CDATA[#hasstunt[stSCSmooRe] <> 0]]></exprreq>
+  </thing>
+</document>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document signature="Hero Lab Data">
+  <thing id="strSocial" name="Social" description="{b}Source:{/b} Dresden Files RPG" compset="Stress" uniqueness="unique">
+    <fieldval field="strAbbr" value="Social" />
+    <usesource source="srcDresden" />
+    <tag group="explicit" tag="30" name="30" abbrev="???" />
+  </thing>
+  <thing id="strHunger" name="Hunger" description="{b}Source:{/b} Dresden Files RPG" compset="Stress" uniqueness="unique">
+    <fieldval field="strAbbr" value="Hunger" />
+    <usesource source="srcDresden" parent="UserParent" name="Dresden Files" />
+    <tag group="explicit" tag="40" name="40" abbrev="???" />
+    <eval phase="PreTraits">if (hero.childfound[pwrFeedDep].field[stRefBonus].value = 0) then
+   hero.childfound[strHunger].field[strMax].value = 0
+endif</eval>
+  </thing>
+</document>
